@@ -8,7 +8,7 @@ const app = express();
 const oauth2Client = new google.auth.OAuth2(
   SECRET.CLIENT_ID,
   SECRET.CLIENT_SECRET,
-  "http://localhost:3000/callback" // This must match your Google Console setting
+  `http://localhost:${SECRET.LISTEN_PORT}/callback` // This must match your Google Console setting
 );
 
 // 1. Generate the Auth URL
