@@ -8,6 +8,6 @@
   "license": "MIT",
   "dependencies": {
     "express": "^5.2.1",
-    "googleapis": "^171.4.0",
+    "googleapis": "^171.4.0"
   }
 }
